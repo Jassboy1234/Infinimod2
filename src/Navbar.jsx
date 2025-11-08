@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -6,8 +7,8 @@ const Navbar = () => {
     <nav className="navbar-box">
       <h1 className="logo">Infinimod</h1>
       <ul className="nav-links">
-        <button href="/">Home</button>
-        <button href="/features">Features</button>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/features">Features</Link></li>
       </ul>
     </nav>
   );
