@@ -1,0 +1,40 @@
+.navbar-box {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  font-family: 'bebas-neue-regular', sans-serif;
+  max-width: 1100px;
+  margin: 20px auto; /* centers horizontally */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  backdrop-filter: blur(6px);
+  z-index: 10;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-links {
+  font-family: 'bebas-neue-regular', sans-serif;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
